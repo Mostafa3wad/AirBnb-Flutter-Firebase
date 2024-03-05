@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:project_one/controller/new_place/create_listing_contoller.dart';
 import 'package:project_one/models/location.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 
 class ChooseLocationController extends GetxController {
   CreateListingController createListingController = Get.find();

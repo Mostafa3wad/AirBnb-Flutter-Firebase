@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 import 'package:project_one/view/screens/center_screens/explore_screens/explore_screen.dart';
 import 'package:project_one/view/screens/center_screens/profile_screens/profile_screen.dart';
 import 'package:project_one/view/screens/center_screens/wishlist_screen/wishlist_screen.dart';

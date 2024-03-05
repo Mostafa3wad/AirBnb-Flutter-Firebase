@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_one/models/user_model.dart';
-import 'package:project_one/repositories/user/user_repository.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/services/user/user_service.dart';
+import 'package:project_one/util/printer.dart';
 import 'package:project_one/view/screens/login_screens/confirm_number_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:project_one/view/screens/login_screens/email_already_in_use.dart';
@@ -27,7 +27,7 @@ class AuthController extends GetxController {
   DateTime? birthday;
 
   UserModel? _userModel;
-  final UserRepository userRepository = UserRepository();
+  final UserService userRepository = UserService();
 
   final RxBool isSignWithPhone = true.obs;
   final RxBool isSignWithEmail = false.obs;

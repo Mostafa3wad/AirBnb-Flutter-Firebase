@@ -5,9 +5,9 @@ import 'package:project_one/controller/new_place/step_one/choose_location_contro
 import 'package:project_one/models/location.dart';
 import 'package:project_one/models/place_model.dart';
 import 'package:project_one/models/user_model.dart';
-import 'package:project_one/repositories/firebase/firebase_repository.dart';
-import 'package:project_one/repositories/user/user_repository.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/services/firebase/firebase_service.dart';
+import 'package:project_one/services/user/user_service.dart';
+import 'package:project_one/util/printer.dart';
 import 'package:project_one/view/screens/center_screens/center_home_screen.dart';
 import 'package:uuid/uuid.dart';
 
@@ -16,8 +16,8 @@ class SuccessfulyController extends GetxController {
       Get.put(CreateListingController());
   ChooseLocationController chooseLocationController =
       Get.put(ChooseLocationController());
-  final FirestorRepository _firebaseRep = FirestorRepository();
-  final UserRepository _userRep = UserRepository();
+  final FirestorService _firebaseRep = FirestorService();
+  final UserService _userRep = UserService();
   UserModel? userModel;
   PlaceModel? placeModel;
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_one/controller/new_place/create_listing_contoller.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 
 class SetPriceController extends GetxController {
   TextEditingController priceController = TextEditingController(text: '50');

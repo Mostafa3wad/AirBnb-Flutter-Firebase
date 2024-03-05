@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:get/get.dart';
 import 'package:project_one/models/user_model.dart';
-import 'package:project_one/repositories/user/user_repository.dart';
+import 'package:project_one/services/user/user_service.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 
 class ProfileController extends GetxController {
-  final UserRepository _userRepository = UserRepository();
+  final UserService _userRepository = UserService();
   final ImagePicker _imagePicker = ImagePicker();
 
   File? _selectedImage;

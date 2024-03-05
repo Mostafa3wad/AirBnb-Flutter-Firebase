@@ -5,7 +5,7 @@ import 'package:project_one/controller/new_place/step_one/choose_location_contro
 import 'package:project_one/controller/new_place/step_three/guests_types_controller.dart';
 import 'package:project_one/controller/new_place/step_tow/place_offers_contoller.dart';
 import 'package:project_one/models/location.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 import 'package:project_one/view/screens/center_screens/center_home_screen.dart';
 import 'package:project_one/view/screens/center_screens/profile_screens/new_listing_screens/steps_of_create_place/step_one/add_basics_information_screen.dart';
 import 'package:project_one/view/screens/center_screens/profile_screens/new_listing_screens/steps_of_create_place/step_one/choose_location_screen.dart';

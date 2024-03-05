@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 import '/models/user_model.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
-class UserRepository {
+class UserService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseStorage _storage = FirebaseStorage.instance;

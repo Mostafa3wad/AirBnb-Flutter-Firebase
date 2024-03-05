@@ -4,10 +4,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:project_one/models/place_model.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 import 'package:uuid/uuid.dart';
 
-class FirestorRepository {
+class FirestorService {
   final _uuid = const Uuid();
 
   final CollectionReference _places =

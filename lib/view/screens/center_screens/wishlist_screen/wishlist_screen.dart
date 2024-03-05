@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:project_one/controller/home/explore_controller.dart';
 import 'package:project_one/shared/config/color.dart';
 import 'package:project_one/models/place_model.dart';
-import 'package:project_one/services/printer.dart';
+import 'package:project_one/util/printer.dart';
 import 'package:project_one/view/widgets/item_card.dart';
 import 'package:project_one/view/widgets/love_place_icon.dart';
 

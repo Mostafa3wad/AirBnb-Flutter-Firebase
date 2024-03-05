@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 import 'package:project_one/models/user_model.dart';
-import 'package:project_one/repositories/user/user_repository.dart';
+import 'package:project_one/services/user/user_service.dart';
 
 class ExploreController extends GetxController {
-  final UserRepository _userRep = UserRepository();
+  final UserService _userRep = UserService();
   UserModel? userModel;
 
   @override
