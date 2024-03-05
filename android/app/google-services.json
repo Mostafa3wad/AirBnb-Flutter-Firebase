@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601334593329",
+    "project_id": "airbnb-40ccb",
+    "storage_bucket": "airbnb-40ccb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601334593329:android:95a3e8d14b91884fcaa210",
+        "android_client_info": {
+          "package_name": "com.example.project_one"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFE8mMkgfMT8DyuY7pQuwv21j0T9valq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
