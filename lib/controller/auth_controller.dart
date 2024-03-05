@@ -162,7 +162,6 @@ class AuthController extends GetxController {
         Printer.print('the Email is there, you can log in');
         await FirebaseAuth.instance
             .signInWithEmailAndPassword(
-
                 email: emailController.text, password: passwordController.text)
             .then((value) {
           Printer.print("Log In ");
